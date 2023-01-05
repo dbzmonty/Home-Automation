@@ -1,0 +1,124 @@
+Kimenetek:						JSON	GPIO
+----------						----	----
+
+01. Lámpa udvar ház sarkai		d09		19
+02. Lámpa udvar álló lámpák     d10		23
+03. Lámpa udvar fészer          d11		25
+04. Lámpa nagy-folyosó          d07		15
+05. Lámpa műhely                d01		3
+06. Lámpa konyha                d02		5
+07. Lámpa kis-folyosó           d06		13
+08. Lámpa fürdő                 d03		7
+09.            			        d04		9
+10. Lámpa háló                  d05		11
+11. Lámpa nappali               d08		17
+12. Lámpa padlás                d12		27
+13. 							d13		29
+14. Lámpa spájz					d14		30	
+15. Csengő						d15		31
+16. 							d16		33
+17. 							d17		35
+18. 							d18		37
+19. 							d19		39
+20. Szellőztető					d20		65
+21. 							d21		67
+22. 							d22		69
+
+Bemenetek:
+----------
+
+01. Lámpa Udvar Ház Sarkai					47
+02. Lámpa Udvar Álló Lámpák					54
+03. Lámpa Udvar Fészer						55
+04. Lámpa Nagy-folyosó						56
+05. Lámpa Műhely							57
+06. Lámpa Konyha							58
+07. Lámpa Kis-folyosó						59
+08. Lámpa Fürdő								60
+09. Lámpa Spájz								61
+10. Lámpa Háló								62
+11. Lámpa Nappali							63
+12. Lámpa Padlás							64
+13. Csengő									66
+14. Szellőztető								68
+15. Nyitásérzékelő Háló ablak		n03		36
+16. Nyitásérzékelő Nappali ablak	n04		38
+17. Nyitásérzékelő Nagy-folyosó 1	n05		40
+18. Nyitásérzékelő Nagy-folyosó 2	n06		41
+19. Nyitásérzékelő Bejárati ajtó	n08		43
+20. Nyitásérzékelő Műhely ajtó		n09		44
+21. Nyitásérzékelő Műhely ablak		n07		42
+22. Nyitásérzékelő Fürdő ablak		n01		32
+23. Nyitásérzékelő Spájz ablak		n02		34
+24. Postaláda						n10 	45	(ha jött a posta high, gombra lemegy low-ra)
+25. Nyitásérzékelő Nagy-folyosó 3	n11 	46
+
+
+//--------------LCD Display Pins--------------------------
+//   LCD_RD   connects to Analog pin A0  
+//   LCD_WR   connects to Analog pin A1  
+//   LCD_RS   connects to Analog pin A2  
+//   LCD_CS   connects to Analog pin A3  
+//   LCD_RST  connects to Analog pin A6
+//   LCD_D0   connects to digital pin 8  
+//   LCD_D1   connects to digital pin 9  
+//   LCD_D2   connects to digital pin 2
+//   LCD_D3   connects to digital pin 3
+//   LCD_D4   connects to digital pin 4
+//   LCD_D5   connects to digital pin 5
+//   LCD_D6   connects to digital pin 6
+//   LCD_D7   connects to digital pin 7
+
+
+OUT:
+----
+3
+5
+7
+9
+11
+13
+15
+17
+19
+23
+25
+27
+29
+30
+31
+33
+35
+37
+39
+65
+67
+69
+
+IN:
+---
+32
+34
+36
+38
+40
+41
+42
+43
+44
+45
+46
+47
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+66
+68
